@@ -16,6 +16,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli)
+  i=0
   i = i+1
   katz_deli << i
   puts "Welcome. You are number #{katz_deli.last} in line."
