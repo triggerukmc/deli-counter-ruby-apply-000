@@ -17,7 +17,8 @@ end
 
 def take_a_number(katz_deli)
   i = i+1
-  puts "Welcome. You are number #{i} in line."
+  katz_deli << i
+  puts "Welcome. You are number #{katz_deli.last} in line."
 end
 
 def now_serving(katz_deli)
