@@ -18,8 +18,8 @@ end
 $i=0
 
 def take_a_number(katz_deli)
-  i = i+1
-  katz_deli << i
+  $i = $i+1
+  katz_deli << $i
   puts "Welcome. You are number #{katz_deli.last} in line."
 end
 
