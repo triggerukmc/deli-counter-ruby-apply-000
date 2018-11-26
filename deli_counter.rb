@@ -15,7 +15,7 @@ def line(katz_deli)
   end
 end
 
-i=0
+$i=0
 
 def take_a_number(katz_deli)
   i = i+1
